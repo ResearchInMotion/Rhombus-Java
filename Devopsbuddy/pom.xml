@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>Devopsbuddy</name>
-	<description>Start up project for Spring Boot</description>
+	<description>Start up project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
