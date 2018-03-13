@@ -5,10 +5,10 @@ class JavaExample1 {
 	private String name="Sahil";
 	private String age="2";
 	
-	public String getName() {
+	protected String getName() {
 		return name;
 	}
-	protected void setName(String name) {
+	private void setName(String name) {
 		this.name = name;
 	}
 	protected String getAge() {
