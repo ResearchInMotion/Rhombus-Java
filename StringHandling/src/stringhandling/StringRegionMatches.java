@@ -9,19 +9,23 @@ package stringhandling;
  *
  * @author nex4vgv
  */
-public class StringBooleanEqual {
+public class StringRegionMatches {
     
     public static void main(String[] args) {
         
-        String val=new String("Values are");
-        String val2=new String("Values are");
+        String name=new String("Sahil Nagpal");
         
-        boolean val3;
+        String god_name="lord krishna";
         
-        val3=val.equals(val2);
+        String check1="lord";
         
-        System.out.println(val3);
+       // System.out.println(name.regionMatches(true, 0, check1, 0, 5));
         
+        System.out.println(god_name.regionMatches(true, 0, check1, 0, 4));
+        
+        
+
+                
     }
     
 }

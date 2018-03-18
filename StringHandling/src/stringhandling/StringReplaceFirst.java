@@ -9,18 +9,17 @@ package stringhandling;
  *
  * @author nex4vgv
  */
-public class StringBooleanEqual {
+public class StringReplaceFirst {
     
     public static void main(String[] args) {
         
-        String val=new String("Values are");
-        String val2=new String("Values are");
+        String name="Sahil Nagpal";
         
-        boolean val3;
+        String name2=name.replaceFirst("Sahil","Nikki" );
         
-        val3=val.equals(val2);
+        System.out.println(name2);
         
-        System.out.println(val3);
+        
         
     }
     

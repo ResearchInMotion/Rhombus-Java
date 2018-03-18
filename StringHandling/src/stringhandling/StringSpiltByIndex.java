@@ -9,19 +9,23 @@ package stringhandling;
  *
  * @author nex4vgv
  */
-public class StringBooleanEqual {
+public class StringSpiltByIndex {
     
     public static void main(String[] args) {
         
-        String val=new String("Values are");
-        String val2=new String("Values are");
-        
-        boolean val3;
-        
-        val3=val.equals(val2);
-        
-        System.out.println(val3);
-        
-    }
+    
+    
+    String name="Sahil Nagpal is a good boy";
+    
+        for (String val : name.split(" ", 4)){
+            
+            System.out.println(val);
+            
+        }
+            
+            
+    
+    
+}
     
 }

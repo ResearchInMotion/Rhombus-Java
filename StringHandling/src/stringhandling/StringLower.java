@@ -9,19 +9,21 @@ package stringhandling;
  *
  * @author nex4vgv
  */
-public class StringBooleanEqual {
+public class StringLower {
+    
     
     public static void main(String[] args) {
         
-        String val=new String("Values are");
-        String val2=new String("Values are");
         
-        boolean val3;
+        String name=new String("Sahil nagpal");
         
-        val3=val.equals(val2);
+        String name2="SAHIL";
         
-        System.out.println(val3);
+        System.out.println(name.toLowerCase());
         
+        System.out.println(name2.toLowerCase());
+        
+        System.out.println(name.toUpperCase());
+                
     }
-    
 }
