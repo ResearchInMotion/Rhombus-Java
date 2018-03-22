@@ -5,7 +5,7 @@ class Child{
 	
 	void display(){
 		
-		System.out.println("Please eat child apple");
+		System.out.println("Please eat parent apple");
 	}
 }
 
@@ -13,7 +13,7 @@ class MethodOverriding extends Child{
 	
 	void display(){
 		
-		System.out.println("Please eat parent apple");
+		System.out.println("Please eat child apple");
 	}
 	
 //	void print(){
