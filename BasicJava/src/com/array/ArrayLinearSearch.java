@@ -30,12 +30,20 @@ public class ArrayLinearSearch {
 			
 				if(arr[i]==target) {
 				
-				System.out.println("Element found " +i);
+				System.out.println("Element found at position " +i);
+				
+				
 				
 				break;
+				
 			}
+				
+				
 			
 		}
+		
+		
+			System.out.println("Element not found ");
 		
 		
 		
