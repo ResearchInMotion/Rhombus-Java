@@ -38,7 +38,7 @@ class TestPolymorphism{
 	
 	public static void main(String[] args) {
 		
-		bank ba=new bank();
+		bank ba=new SBI();
 		System.out.println(ba.getrateofinterest());
 		
 	}
