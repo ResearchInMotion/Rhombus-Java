@@ -19,10 +19,14 @@ public class realIntegerPalindrome {
 		while(number>0){
 			
 			r=number%10;
+		
 			
 			sum=(sum*10)+r;
 			
+			
+			
 			number=number/10;
+	
 					
 		}
 		
